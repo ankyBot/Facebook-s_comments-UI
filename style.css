@@ -6,49 +6,95 @@
 
 body {
   font-family: sans-serif;
-  margin-top: 5%;
-}
-
-.main-text {
   width: 40%;
   margin: auto;
-  text-align: center;
 }
 
-form textarea {
+/*UI input styling*/
+.main-text-input {
+  /* width: 40%; */
+  /* margin: auto; */
+  border: 1px solid blue;
+}
+
+textarea {
   width: 100%;
-  min-height: 35vh;
-  overflow: auto;
+  height: 30vh;
+  border: none;
+}
+
+.content-area {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.main-text-input span {
+  border: 1px solid;
+  border-radius: 0 10px 0 0;
+  cursor: pointer;
+  background-color: aliceblue;
 }
 
 .div-button {
+  /* width: 40%; */
+  /* margin: auto; */
   display: flex;
   justify-content: flex-end;
-  margin: 1%;
+  border: 1px solid blue;
+  /* border-radius: 5px; */
 }
 
-button {
+.div-button button {
   border-radius: 5px;
-  background-color: rgb(43, 136, 43);
+  background-color: rgb(9, 121, 195);
   color: white;
   padding: 0.5%;
   cursor: pointer;
 }
 
+/*gify fetch*/
+
+.searchInputGify {
+  width: 25%;
+}
+
+.searchBoxGify {
+  width: 40%;
+  height: 25vh;
+  border: 1px solid;
+}
+
+.searchButton {
+  margin-left: 5.25%;
+  padding: 0 1%;
+  cursor: pointer;
+}
+
+/*
 button:hover {
   background-color: rgb(150, 175, 150);
   color: white;
 }
 
 .main-text p {
-  /* display: flex;
-        align-items: center; */
-  /* margin: 10px; */
   text-align: left;
 }
 
 .formate-comments {
   margin: 10px;
-  /* border: 1px solid; */
   text-align: left;
 }
+
+#gif-search {
+  border: 1px solid;
+  border-radius: 7px;
+  text-align: center;
+  background-color: aliceblue;
+  cursor: pointer;
+  padding: 0.2%;
+  margin: 1%;
+  width: 12%;
+}
+*/
