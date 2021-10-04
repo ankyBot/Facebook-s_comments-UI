@@ -77,6 +77,22 @@ let addComment = () => {
     commentContent.appendChild(divComments);
   }
 
+  if (myTextInput.value != "") {
+    let divComments = document.createElement("div");
+    let myTextComment = document.createElement("p");
+    // let myImgComment = document.createElement("img");
+
+    // let myImgUrl = document.querySelector("img");
+
+    myTextComment.innerText = myTextInput.value;
+
+    // myImgComment.src = myImgUrl.src;
+
+    divComments.appendChild(myTextComment);
+    // divComments.appendChild(myImgComment);
+    commentContent.appendChild(divComments);
+  }
+
   //clearing comment input area
   myTextInput.value = "";
 
