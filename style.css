@@ -72,29 +72,9 @@ textarea {
   cursor: pointer;
 }
 
-/*
-button:hover {
-  background-color: rgb(150, 175, 150);
-  color: white;
-}
-
-.main-text p {
-  text-align: left;
-}
-
 .formate-comments {
   margin: 10px;
   text-align: left;
 }
 
-#gif-search {
-  border: 1px solid;
-  border-radius: 7px;
-  text-align: center;
-  background-color: aliceblue;
-  cursor: pointer;
-  padding: 0.2%;
-  margin: 1%;
-  width: 12%;
-}
-*/
+
